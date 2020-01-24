@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+        <!-- meta for mobs -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--internet explorer-->
+        <meta http-equiv="x-uacompataple" content="IE=edge">
+        
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+         <![endif]-->
+
+        <title>EDUNEER</title>
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <!--animate-->
+		<link rel="stylesheet" href="css/animate.min.css">
+        
+        <!--fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		
+		<!--normalize-->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <!--my style-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	<body>
+        <!--start Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent; margin-top: -21px">
+            <div class="container" style="    padding-top: 15px;">
+              <a class="navbar-brand text-center text-xl-left d-flex justify-content-center" href="#" style="margin: auto;">
+			     <img src="images/logo.jpeg" width="100" height="100" alt="logo img">
+		      </a>
+            </div>
+        </nav>
+        <header>
+            <div class="container-fluid" style="height: 100%">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/WhatsApp%20Image%202019-03-12%20at%202.24.54%20PM.jpeg" class="d-block w-100 overlay" alt="main">
+                            <div class="carousel-caption d-block">
+                                <h1>EDUNEER</h1>
+                                <p class="lead">The First Online Platform Provides Online Courses <br/>For Araab Engineers</p>
+                                <div class="form-group mt-5 text-center" data-toggle="modal" data-target="#exampleModal">
+                                    <a id="send" class="btn text-center" href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/WhatsApp%20Image%202019-03-12%20at%202.41.54%20PM.jpeg" class="d-block w-100 overlay" alt="main">
+                            <div class="carousel-caption d-block">
+                                <h1>EDUNEER</h1>
+                                <p class="lead">Tel-Follow Up</p>
+                                <div class="form-group mt-5 text-center" data-toggle="modal" data-target="#exampleModal">
+                                    <a id="send" class="btn text-center" href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/WhatsApp%20Image%202019-03-12%20at%202.32.57%20PM.jpeg" class="d-block w-100 overlay" alt="main">
+                            <div class="carousel-caption d-block">
+                                <h1>EDUNEER</h1>
+                                <p class="lead">High Qualified Instructor</p>
+                                <div class="form-group mt-5 text-center" data-toggle="modal" data-target="#exampleModal">
+                                    <a id="send" class="btn text-center" href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/WhatsApp Image 2019-03-12 at 2.41.54 PM.jpeg" class="d-block w-100 overlay" alt="main">
+                            <div class="carousel-caption d-block">
+                                <h1>EDUNEER</h1>
+                                <p class="lead">Only For Engineers</p>
+                                <div class="form-group mt-5 text-center" data-toggle="modal" data-target="#exampleModal">
+                                    <a id="send" class="btn text-center" href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/WhatsApp Image 2019-03-14 at 7.46.08 AM.jpeg" class="d-block w-100 overlay" alt="main">
+                            <div class="carousel-caption d-block">
+                                <h1>EDUNEER</h1>
+                                <p class="lead">Coming Soon</p>
+                                <div class="form-group mt-5 text-center" data-toggle="modal" data-target="#exampleModal">
+                                    <a id="send" class="btn text-center" href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <form id="form" action="php/master.php" method="POST" class="col-10 offset-1">
+                                            <div class="form-group">
+                                                <input id="first-name" type="text" class="form-control" name="first_name" placeholder="First Name" required>
+                                                <span class="first-name-error"> first name is required and should be more than 5 leters</span>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="last-name" type="text" class="form-control" name="last_name" placeholder="last Name" required>
+                                                <span class="last-name-error"> last name is required and should be more than 5 leters</span>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="email" type="email" name="email" class="form-control" placeholder="email" required>
+                                                <span class="email-error"> email is required and should be more than 5 leters</span>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="password" type="password" name="password" class="form-control" placeholder="password" minlength="8" required>
+                                                <span class="password-error">password is required and should be more than 5 leters</span>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="confirm-password" type="password" name="confirm_password" class="form-control" placeholder="confirm password" required>
+                                                <span class="confirm-password-error">the password didn't match</span>
+                                            </div>
+
+
+                                            <div class="d-flex justify-content-center">
+                                                <button class="btn btn-primary" type="submit">SignUp</button>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--end Navbar-->
+        
+        <!-- Include js plugin -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+		
+		<!--animate-->
+		<script src="js/wow.min.js"></script>
+		<script>
+            new WOW().init();
+        </script>
+		<!-- my js-->
+		<script src="js/main.js"></script>
+	</body>
+</html>
